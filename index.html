@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseñas de Series de Netflix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+</head>
+<body>
+    <!-- Barra de Navegación -->
+    <nav>
+        <div class="container">
+            <img src="imagenes/Default_Make_a_logo_for_a_series_review_website_include_a_clap_0.jpg" alt="Logo" class="logo">
+            <h1>Reseñas de Series de Netflix</h1>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#drama">Drama</a></li>
+                <li><a href="#comedia">Comedia</a></li>
+                <li><a href="#ciencia-ficcion">Ciencia Ficción</a></li>
+                <li><a href="#consulta">Consulta</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Landing Page -->
+    <header id="inicio" class="landing">
+        <div class="container">
+            <h2>¡Bienvenido a nuestras reseñas de series de Netflix!</h2>
+            <p>Descubre las mejores series para ver en tu tiempo libre.</p>
+        </div>
+    </header>
+
+    <!-- Sección de Series -->
+    <section id="series" class="series">
+        <h2>Series Destacadas</h2>
+        <div class="contenido">
+            <div class="serie">
+                <img src="imagenes/bb_reno.jpg" alt="bebé reno">
+                <h3>Bebé Reno</h3>
+                <p>Un comediante que atraviesa una mala época trata de evitar el acoso de una mujer a la que ayudó en el pasado. Ella, una persona vulnerable, ha desarrollado un vínculo insano con la única persona que la ha tratado bien.</p>
+                <div class="rating">
+                    <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                    <span class="average">(4.1)</span>
+                </div>
+            </div>
+            <div class="office">
+                <img src="imagenes/office.jpg" alt="office">
+                <h3>The Office (EEUU)</h3>
+                <p>Es una oficina disfuncional, paródica y aburrida donde los personajes tienen un comportamiento sociópata a ratos y absurdo en otras ocasiones, incluso en algún momento podríamos reconocernos en ellos en nuestros "peores momentos".</p>
+                <div class="rating">
+                    <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                    <span class="average">(4.9)</span>
+                </div>
+            </div>
+            <div class="bly_manor">
+                <img src="imagenes/bly_manor.jpeg" alt="bly_manor">
+                <h3>The Haunting of Bly Manor</h3>
+                <p>La historia principal de 'La maldición de Bly Manor' se centra en una de las grandes historias de fantasmas gótica de todos los tiempos. 'Otra vuelta de Tuerca' sigue a una institutriz sin nombre hasta la remota mansión rural inglesa de Bly para cuidar de dos niños recientemente huérfanos llamados Miles y Flora</p>
+                <div class="rating">
+                    <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                    <span class="average">(4.3)</span>
+                </div>
+            </div>
+            <!-- Repetir el bloque de la serie para cada serie -->
+        </div>
+    </section>
+
+    <!-- Formulario de Consulta -->
+    <section id="consulta" class="consulta">
+        <div class="container">
+            <h2>¿Tienes alguna pregunta o sugerencia?</h2>
+            <p>Completa el formulario y nos pondremos en contacto contigo.</p>
+            <form id="contactForm">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+/* Estilos Generales */
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Barra de Navegación */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    width: 100%;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-right: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para la Barra de Navegación */
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5em;
+    width: 100%;
+    max-width: none;
+    margin: 10px;
+}
+
+.logo {
+    width: 100px; /* Tamaño deseado para el logo */
+    margin-right: 20px; /* Espacio entre el logo y el título */
+    height: 10vh;
+}
+
+/* Landing Page */
+.landing{
+    width: 100%;
+    height: 25%;
+    margin: auto;
+}
+.landing .container{
+    background-color: #f2f2f2;
+    padding: 100px 0;
+    text-align: center;
+    background-image: url(imagenes/series.jpeg);
+    width: 75%;
+    height: 75vh;
+    background-size: cover;
+    background-position: center center;
+    align-self: center;
+    margin: auto;
+    border: solid black 0.4em;
+    color: azure;
+    align-items: center;
+    font-size: larger;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.landing .container h2{
+    font-weight: 750;
+}
+
+.landing h2,
+.landing p {
+    margin: 20px 0; /* Espacio entre el título y el párrafo */
+}
+/* Sección de Series */
+.series {
+    padding: 50px 0;
+}
+
+.series .contenido{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 2em;
+}
+.series h2{
+    margin-left: 2em;
+}
+.serie {
+    margin-bottom: 50px;
+    width: 40%;
+    text-align: justify;
+}
+
+.serie img {
+    max-width: 100%;
+    height: auto;
+}
+
+.rating {
+    margin-top: 10px;
+}
+
+.office{
+    margin-bottom: 50px;
+    width: 40%;
+    text-align: justify;
+}
+.office img{
+    max-width: 100%;
+    height: auto;
+}
+
+.bly_manor{
+    margin-bottom: 50px;
+    width: 40%;
+    text-align: justify;
+}
+.bly_manor img{
+    max-width: 100%;
+    height: auto;
+}
+/* Formulario de Consulta */
+.consulta {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.consulta form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.consulta input,
+.consulta textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.consulta button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos Adicionales */
+.stars {
+    color: orange;
+}
